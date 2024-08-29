@@ -1,0 +1,40 @@
+Q1. What is an API? Give an example, where an API is used in real life.
+Answer: API, full form is Application Programming Interface. It is a platform that provides common services to make two completely different application to interact.
+Example of API are, Google Pay and Banking system.
+
+Q2. Give advantages and disadvantages of using API.
+Answer: Advantages of API are:
+        --->Ease of Integration: Allows different software system to communicate with each other.
+        --->Increased Efficiency: They provide pre-built functionality, allowing developers to focus on other parts of their project.
+        -->Scalability: can be designed to handle large number of requests.
+        -->Automation: allowing applications to interact with each other without human intervention.
+        -->Innovation and Flexibility: APIs encourage innovation by providing developers with access to new technologies and services.
+        
+Disadvantages of API are:
+       -->Dependency on Third-party Services: it means relying on external APIs,i.e, system is dependent on the availability and performance of those services.
+       -->Security Concerns: Exposing APIs can introduce security vulnerabilities if not properly secured. 
+       -->Complexity: Integrating multiple APIs can add complexity to the development process. 
+       -->Performance Overhead: Using APIs can introduce latency, especially if the API call requires data to be fetched from a remote server.
+       -->Cost: While some APIs are free, others come with usage fees. As your application's API usage grows, these costs can add up, potentially becoming expensive.
+    
+Q3. What is a Web API? Differentiate between API and Web API.
+Answer:A Web API is a type of API that is accessible over the web using the HTTP/HTTPS protocol. It allows different software systems to communicate with each other through the internet. Web APIs are commonly used to enable web-based applications to interact with other services, such as databases, third-party platforms, or other web applications.
+Difference between API and Web API:
+-->Web API is specific type of API that is accessible over the web using HTTP/HTTPS protocols,whereas APIs can be implemented in various forms.
+--> APIs can use various communication protocols including HTTP,TCP/IP,SOAP and others depending on their design and purpose,whereas Web API specifically use HTTP/HTTPS protocols for communication.
+-->API can be local,i.e, within private network or public but web API are exposed to the web, making them accessible via the internet by external systems or users.
+
+Q4.Explain REST and SOAP Architecture. Mention shortcomings of SOAP.
+Answer: REST stands for Representational State Transfer which is an architectural style for designing scalable APIs.It relies on a stateless, client-server, cacheable communication protocol,typically HTTP.
+SOAP stands for Simple Object Access Protocol which is an exchanging structured information in the implementation of web services in computer networks.It relies on XML as its message format and usually operates over HTTP or SMTP.
+Shortcomings of SOAP are:
+1.Complexity: it is more complex as compared to REST due to its strict standards and reliance on XML.
+2.Overhead:SOAP messages are typically larger due to the XML format which result into higher bandwidth usage.
+3.Performance: The overhead associated with the processing and adhering to SOAP standards can make SOAP services slower than REST services.
+
+Q5.Differentiate between REST and SOAP.
+Answer:
+1. Architecture wise: REST uses stateless,client-sever model and relies on standard HTTP methods whereas SOAP protocol with a strict set of standards and rules, primarily relying on XML- based messaging.
+2.REST uses HTTP/HTTPS primarily whereas SOAP uses HTTP,SMTP,TCP and others.
+3.REST support multiple data formats like JSON,XML,HTML and plain text whereas SOAP supports only XML message format.
+4.REST is insecure whereas SOAP is more secure.
